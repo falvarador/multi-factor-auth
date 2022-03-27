@@ -1,0 +1,29 @@
+/* Style Reset */
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  color: #000;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.router-view {
+  display: inherit;
+}
